@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  text-align: center;
+  display: table;
+  margin: 10% auto 0;
+  max-width: 400px;
+  width: 100%;
+}
+
+.formBlock {
+  width: 100%;
+  background-color: #ddd;
+  display: table;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  width: 100%;
+  display: block;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 0 5px;
+}
+
+.submitBtn {
+  display: table;
+  margin: 0 auto;
+  border: none;
+  border-radius: 2px;
+  font-size: 14px;
+  padding: 5px;
+  background-color: #757575;
+  color: #fff;
+}

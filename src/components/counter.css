@@ -1,0 +1,224 @@
+.ButtonCompleted {
+  font-size: 150%;
+  font-weight: Bold;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #0f81c5;
+  border-width: 3px;
+  border-style: Solid;
+  border-color: #0f81c5;
+}
+.ButtonCompletedContainer {
+  float: right;
+  margin-right: 15%;
+}
+.ButtonToDo {
+  font-size: 150%;
+  font-weight: Bold;
+  border-radius: 20px;
+  background-color: #0f81c5;
+  color: #ffffff;
+  border-width: 3px;
+  border-style: Solid;
+  border-color: #0f81c5;
+}
+.ButtonTodoContainer {
+  float: left;
+  margin-left: 10%;
+}
+.ButtonContainer {
+  margin-bottom: 5vh;
+}
+.ButtonAdd {
+  float: right;
+  position: relative;
+  bottom: -15vh;
+  border-width: 0px;
+  background-color: #ffffff;
+  outline: none !important;
+}
+.ButtonEdit {
+  float: right;
+  position: relative;
+  border-width: 0px;
+  background-color: #ffffff;
+  outline: none !important;
+}
+
+.ButtonDelete {
+  float: right;
+  position: relative;
+  top: -5vh;
+  right: -5vh;
+  border-width: 0px;
+  background-color: #ffffff;
+  outline: none !important;
+}
+
+.TextInput {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom-color: #0f81c5;
+  outline: none;
+}
+
+.popup-content {
+  width: 90% !important;
+  height: auto;
+  border-radius: 30px;
+  border-color: black;
+  overflow: hidden;
+}
+input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid white;
+}
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -4px;
+  left: -1px;
+  position: relative;
+  background-color: #000000;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid white;
+}
+.redbox {
+  background-color: #fe0808;
+  padding: 1.2vw;
+  display: inline;
+}
+.orangebox {
+  background-color: #f19324;
+  padding: 1.2vw;
+  display: inline;
+}
+.greenbox {
+  background-color: #2fe277;
+  padding: 1.2vw;
+  display: inline;
+}
+.radiocontainer {
+  width: 110%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.radiotext {
+  display: inline;
+  padding: 1.7vw;
+}
+.form {
+  margin: 3vw;
+}
+
+.listelements {
+  display: inline-block;
+  margin-block-start: 0.2em !important;
+  margin-block-end: 0.2em !important;
+}
+.colorcircle {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.listelementcontainer {
+  width: 90%;
+  border-bottom: solid #000;
+  border-width: 0.2vw;
+}
+.editpopup {
+  float: right;
+}
+.listtitle {
+  padding-left: 3vw;
+}
+.body {
+  padding: 3vw;
+}
+.date {
+  color: #ffffff;
+  position: absolute;
+  top: 1vh;
+  font-size: 35px;
+  left: 5vw;
+}
+.time {
+  color: #ffffff;
+  position: absolute;
+  top: 6vh;
+  font-size: 35px;
+  left: 5vw;
+}
+.center_element {
+  width: 99%;
+}
+.submitbuttoncontainer {
+  text-align: center;
+}
+.submitbutton {
+  margin: auto;
+  font-size: 120%;
+  letter-spacing: 0.1em;
+  width: 30vw;
+  height: 5vh;
+  color: white;
+  background-color: #2196f3;
+  border-radius: 20px;
+  border-width: 0px;
+  display: inline-block;
+}
+.topbanner {
+  background-color: #0f81c5;
+  height: 10vh;
+}
+.ButtonNo {
+  float: right;
+  margin-right: 23.5%;
+  padding-left: 7%;
+  padding-right: 7%;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #0f81c5;
+  border-width: 3px;
+  border-style: Solid;
+  border-color: #0f81c5;
+  outline: none !important;
+  text-align: center;
+}
+.ButtonYes {
+  padding-left: 7%;
+  padding-right: 7%;
+  border-radius: 20px;
+  background-color: #0f81c5;
+  color: #ffffff;
+  border-width: 3px;
+  border-style: Solid;
+  border-color: #0f81c5;
+  outline: none !important;
+  text-align: center;
+  margin-left: 23.5%;
+}
+.warningmessage {
+  text-align: center;
+}
+.deletepopup {
+  width: 100%;
+}
+.formtext {
+  font-weight: bold;
+}
+.formtitle {
+  text-align: center;
+}
